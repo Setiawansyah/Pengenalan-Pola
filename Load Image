@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+import cv2
+import numpy as np
+
+print("read images using opencv")
+five = cv2.imread("5.png")
+print(five.shape)
+print(five.size)
+plt.imshow(five)
+cv2.waitKey(0)
